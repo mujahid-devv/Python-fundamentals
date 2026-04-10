@@ -1,0 +1,10 @@
+01 [INFO ] INFO Server started on port 8080
+02 [DEBUG] DEBUG Request received: GET /api/health
+03 [INFO ] INFO User login: user_id=42
+04 [WARN ] WARN Response time 1.8s — above threshold
+05 [ERROR] ERROR NullPointerException in UserService.java:98
+06 [INFO ] INFO Retry attempt 1 of 3
+07 [INFO ] INFO Retry succeeded
+08 [DEBUG] DEBUG Cache miss: key=session_abc123
+09 [WARN ] WARN DB connection pool at 90% capacity
+10 [INFO ] INFO Graceful shutdown initiated
